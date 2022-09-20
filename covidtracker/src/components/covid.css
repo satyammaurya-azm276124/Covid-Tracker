@@ -1,0 +1,80 @@
+.mainbody {
+    background-color: rgb(68, 66, 66);
+    
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+
+h1, p, h2 {
+    color: white;
+    font-size: 40px;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card__main {
+    height: 70%;
+    width: 80%;
+    margin: 50px;
+    align-items: center;
+    background-color: rgb(25, 193, 244);
+}
+
+.card__name:hover{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card__name span {
+    font-size: 25px;
+}
+
+.card__total {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.card__green {
+    height: 70%;
+    width: 80%;
+    margin:  50px;
+    align-items: center;
+    background-color: rgb(22, 237, 47);
+}
+
+.card__yellow {
+    height: 70%;
+    width: 80%;
+    margin: 50px;
+    align-items: center;
+    background-color: #fff713;
+}
+
+.card__red {
+    height: 70%;
+    width:  80%;
+    margin:  50px;
+    align-items: center;
+    background-color: #fb0b0b;
+}
+.card__orange {
+    height: 70%;
+    width:  80%;
+    margin: 50px;
+    align-items: center;
+    background-color: #f28304;
+}
+.card__grey {
+    height: 70%;
+    width:  80%;
+    margin:  50px;
+    align-items: center;
+    background-color:  #b27a01;
+}
